@@ -1,4 +1,4 @@
-# Automad Package Installer 
+# Automad Composer Package Installer 
 
 This is a custom Composer installer for [Automad](https://automad.org) packages.
 
