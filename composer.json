@@ -1,0 +1,25 @@
+{
+    "name": "automad/package-installer",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marc Anton Dahmen",
+            "homepage": "https://marcdahmen.de",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Automad\\Composer\\": "src/"}
+    },
+    "extra": {
+        "class": "Automad\\Composer\\PackageInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.3",
+		"phpunit/phpunit": "^7.4"
+    }
+}
