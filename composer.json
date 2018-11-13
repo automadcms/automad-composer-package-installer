@@ -1,5 +1,6 @@
 {
     "name": "automad/package-installer",
+    "description": "A custom composer installer for Automad packages",
     "type": "composer-plugin",
     "license": "MIT",
     "authors": [
