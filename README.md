@@ -11,6 +11,6 @@ To be able to be installed with Composer, Automad packages must have the followi
 	{
 	    "type": "automad-package",
         "require": {
-            "automad/package-installer": ">=1.0-stable"
+            "automad/package-installer": ">=1.1-stable"
         }
 	} 
