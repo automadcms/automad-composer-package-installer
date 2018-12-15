@@ -66,17 +66,12 @@ final class PackageInstallerTest extends TestCase {
 			array(
 				'vendor/test-theme',
 				'automad-package',
-				'packages/vendor/testtheme'
+				'packages/vendor/test-theme'
 			),
 			array(
 				'vendor/test-extension',
 				'automad-package',
-				'packages/vendor/testextension'
-			),
-			array(
-				'vendor/lang-german',
-				'automad-package',
-				'packages/vendor/langgerman'
+				'packages/vendor/test-extension'
 			)
 			
 		);

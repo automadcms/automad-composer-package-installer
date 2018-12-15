@@ -21,8 +21,7 @@ class PackageInstaller extends LibraryInstaller {
      */
     
     public function getInstallPath(PackageInterface $package) {
-		$name = preg_replace('/[^\w\/]/', '', $package->getPrettyName());
-        return 'packages/' . strtolower($name);
+        return 'packages/' . strtolower($package->getPrettyName());
     }
 
     /**
